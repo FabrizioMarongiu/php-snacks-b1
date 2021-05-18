@@ -73,6 +73,8 @@ conosciamo nella documentazione) che:
 3. che age sia un numero.
 Se tutto è ok stampare “Accesso riuscito”, altrimenti “Accesso negato”
      -->
+
+     <h1>Snack 2: Verifica accesso</h1>
      <?php
      
         $name = $_GET["name"];
@@ -80,18 +82,21 @@ Se tutto è ok stampare “Accesso riuscito”, altrimenti “Accesso negato”
         $age = $_GET["age"];
 
         if(
-           strlen($name) > 2 & 
+           strlen($name) > 2 &&
+            (strpos($mail, '@') && strpos($mail,'.')) && 
+            (is_nan($age) === false)
+
             
         ){
-            echo "ok";
+            echo "<h3>Accesso Riuscito</h3>";
         }else{
-            echo strlen($name);
+            echo "<h3>Accesso Negato </h3>";
         }
 
 
      ?>
 
-    <h1>Snack 2:</h1>
+    
 
 
 
