@@ -83,7 +83,7 @@ Se tutto è ok stampare “Accesso riuscito”, altrimenti “Accesso negato”
 
         if(
            strlen($name) > 2 &&
-            (strpos($mail, '@') && strpos($mail,'.')) && 
+            ( strpos($mail, '@' ) && strpos($mail,'.')  ) && 
             (is_nan($age) === false)
 
             
@@ -115,7 +115,7 @@ Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà co
 
             $numero = rand(1, 100);
 
-            if(in_array($numero, $numbers) === false){
+            if(! in_array($numero, $numbers)){
                 $numbers[] = $numero;
             }
             else{
