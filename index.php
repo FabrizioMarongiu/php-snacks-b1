@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Snacks</title>
 </head>
 <body>
 
@@ -22,27 +22,27 @@ Olimpia Milano - Cantù | 55-60
     $matches = [
         [
             'home_team' => 'Dinamo',
-            'home_scores' => '70',
+            'home_scores' => 70,
             'guest_team' => 'Milano',
-            'guest_scores' => '30',
+            'guest_scores' => 30,
         ],
         [
             'home_team' => 'Roma',
-            'home_scores' => '45',
+            'home_scores' => 45,
             'guest_team' => 'Rieti',
-            'guest_scores' => '51',
+            'guest_scores' => 51,
         ],
         [
             'home_team' => 'Torino',
-            'home_scores' => '40',
+            'home_scores' => 40,
             'guest_team' => 'Genova',
-            'guest_scores' => '23',
+            'guest_scores' => 23,
         ],
         [
             'home_team' => 'Venezia',
-            'home_scores' => '47',
+            'home_scores' => 47,
             'guest_team' => 'Mestre',
-            'guest_scores' => '33',
+            'guest_scores' => 33,
         ],
     ]
 
